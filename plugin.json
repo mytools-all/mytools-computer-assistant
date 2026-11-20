@@ -1,0 +1,29 @@
+{
+  "name": "mytools-computer-assistant",
+  "pluginName": "电脑助手",
+  "description": "本机 CPU、内存、网速与磁盘空间监控，支持进程排行和可选提醒",
+  "version": "0.1.1",
+  "apiVersion": 1,
+  "main": "index.html",
+  "icon": "icon.svg",
+  "author": "MyTools",
+  "capabilities": [
+    "system.resources",
+    "storage.get",
+    "storage.set",
+    "system.notify"
+  ],
+  "features": [
+    {
+      "code": "monitor",
+      "explain": "打开电脑助手",
+      "cmds": [
+        "电脑助手",
+        "资源监控",
+        "系统监控",
+        "CPU",
+        "内存监控"
+      ]
+    }
+  ]
+}
