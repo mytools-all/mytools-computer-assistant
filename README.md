@@ -1,6 +1,6 @@
 # 电脑助手
 
-本地版本 0.1.1，独立 MyTools 插件，未发布 npm。依赖公开 system.resources 能力，需配合本次更新的主程序。旧宿主会明确降级到原始进程排行并提示更新。
+版本 0.1.1，独立 MyTools 插件。依赖公开 system.resources 能力，需配合本次更新的主程序。旧宿主会明确降级到原始进程排行并提示更新。
 
 展示 CPU、物理内存、交换/页面文件、逐网卡上传下载、磁盘余量、进程 CPU/内存前 20、硬件与系统信息。最近一分钟曲线只保存在当前会话中，不保存进程历史或上传信息。GPU 和温度首版不支持。
 
@@ -14,4 +14,4 @@
 
 CPU 统一按整机 0—100% 显示。网络按单个网卡展示，避免 VPN/虚拟网卡累计产生重复流量。磁盘容量数据可能有短暂缓存，不表示硬盘实时读写速度。
 
-开发：npm install --ignore-scripts、npm test、npm pack。通过 MyTools 开发者页面安装 tgz。源目录与安装目录独立，修改后需重新安装。本次仅本地验收，GitHub/npm 发布等待用户确认。插件遵循 MIT LICENSE。
+开发：npm install --ignore-scripts、npm test、npm pack。通过 MyTools 开发者页面安装 tgz。源目录与安装目录独立，修改后需重新安装。通过 npm 安装 @mytools-all/mytools-computer-assistant@0.1.1。插件遵循 MIT LICENSE。
