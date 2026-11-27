@@ -2,7 +2,7 @@
   "name": "mytools-computer-assistant",
   "pluginName": "电脑助手",
   "description": "本机 CPU、内存、网速与磁盘空间监控，支持进程排行和可选提醒",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "apiVersion": 1,
   "main": "index.html",
   "icon": "icon.svg",
@@ -25,5 +25,8 @@
         "内存监控"
       ]
     }
-  ]
+  ],
+  "engines": {
+    "mytools": ">=0.2.0 <0.3.0"
+  }
 }

@@ -15,3 +15,7 @@
 CPU 统一按整机 0—100% 显示。网络按单个网卡展示，避免 VPN/虚拟网卡累计产生重复流量。磁盘容量数据可能有短暂缓存，不表示硬盘实时读写速度。
 
 开发：npm install --ignore-scripts、npm test、npm pack。通过 MyTools 开发者页面安装 tgz。源目录与安装目录独立，修改后需重新安装。通过 npm 安装 @mytools-all/mytools-computer-assistant@0.1.1。插件遵循 MIT LICENSE。
+
+## MyTools 兼容范围
+
+版本 0.1.2 声明支持 MyTools >=0.2.0 <0.3.0（0.2.x 稳定版），插件 API 为 v1。主程序超出范围时应更新插件或使用受支持的主程序版本。旧版主程序可能不识别此声明，请先升级到提供兼容检查的 MyTools。

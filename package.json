@@ -1,6 +1,6 @@
 {
   "name": "@mytools-all/mytools-computer-assistant",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "轻量的本机资源监控与可选提醒",
   "type": "module",
   "main": "index.html",
@@ -32,5 +32,8 @@
   "homepage": "https://github.com/mytools-all/mytools-computer-assistant#readme",
   "bugs": {
     "url": "https://github.com/mytools-all/mytools-computer-assistant/issues"
+  },
+  "engines": {
+    "mytools": ">=0.2.0 <0.3.0"
   }
 }
